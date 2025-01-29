@@ -1,0 +1,2 @@
+# Julia Function Bug
+This repository contains a simple Julia function that demonstrates a subtle bug related to handling negative inputs. The function is designed to return the square of a positive number and 0 for a non-positive number. However, due to floating point precision it might give unexpected results. The `bug.jl` file shows the buggy code, and `bugSolution.jl` provides a corrected version that is more robust and handles the floating-point precision issues correctly.
